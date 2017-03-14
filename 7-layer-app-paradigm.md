@@ -6,11 +6,11 @@
 
 This document outlines the base elements that an application developer eventually has to consider while designing, creating and deploying contemporary software made for public or private distribution which processes data in some way and provides some form of user interface experience.  
 
-Contemporary venacular loosely lumps anything which provides some sort of user interface to a computer program into a term which is short for *application*, the infamous (or dreaded) **app**.  Ultimately, for the all but the most particular of souls (such as myself), every piece of software is an 'app'.  This idiom spread due to Apple naming their software distrobution software 'App Store' (it's really much more appropriate than 'Play Store' because I have never *played* anything on my Androids).
+Contemporary venacular loosely lumps anything which provides some sort of user interface to a computer program into the term **app** which is short for *application*.  Ultimately, for the all but the most particular of souls (such as myself), every piece of software is an 'app' now.
 
 I digress.
 
-If you are writing tools, frameworks, APIs, or any other sofware which falls outside of the context as described, then only a subset of these layers may apply to your software.  For our purposes, we are explicity concerned with the design and implementation of a **modern web *and/or* mobile application** deployed to the Internet-at-large.
+If you are writing tools, frameworks, APIs, or any other sofware which falls outside of the context as described, then only a subset of these layers may apply to your software.  For our purposes, we are explicity concerned with the design and implementation of a **modern web *and/or* mobile application** deployed for 24/7 multi-user service.
 
 
 ## The 6 Layers Almost Every Modern Application Requires
@@ -32,7 +32,7 @@ If you are writing tools, frameworks, APIs, or any other sofware which falls out
 
 The 7th layer, **automation** is usually found in highly scaled applications, although applications of any size may utilize it.
 
-Many people want to jump right in and start developing their application infrastructure in a scalable way using automation.  It sounds like a great idea, but in the real world, it can just make everything harder.  Your, your application and your layers should all grow together harmoniously.  Don't force it.
+Many people want to jump right in and start developing their application infrastructure in a scalable way using automation.  It sounds like a great idea, but in the real world, it can just make everything harder.  You, your application and its layers should all grow together harmoniously.  Don't force it.
 
 
 ## Example Layer Components
