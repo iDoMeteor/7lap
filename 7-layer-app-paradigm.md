@@ -1,6 +1,6 @@
 # 7 Layer Application Paradigm (7LAP)
 
-![7 Layer Application Paradigm Illustration](https://github.com/iDoMeteor/7lap/images/7-layer-application-paradigm.png => height="300px" width="760px" "7 Layer Application Paradigm Illustration")
+![7 Layer Application Paradigm Illustration](https://github.com/iDoMeteor/7lap/blob/master/images/7-layer-application-paradigm-1280x505.png?raw=true "7 Layer Application Paradigm Illustration")
 
 ## Context
 
