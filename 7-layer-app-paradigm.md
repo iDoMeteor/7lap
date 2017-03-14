@@ -1,5 +1,7 @@
 # 7 Layer Application Paradigm (7LAP)
 
+![7 Layer Application Paradigm Illustration](https://github.com/iDoMeteor/7lap/images/7-layer-application-paradigm.png => height="300px" width="760px" "7 Layer Application Paradigm Illustration")
+
 ## Context
 
 This document outlines the base elements that an application developer eventually has to consider while designing, creating and deploying contemporary software made for public or private distribution which processes data in some way and provides some form of user interface experience.  
@@ -8,7 +10,7 @@ Contemporary venacular loosely lumps anything which provides some sort of user i
 
 I digress.
 
-If you are writing network tools, frameworks, APIs, or any other sofware which falls outside of the context as described, then only a subset of these layers may apply to your software.
+If you are writing tools, frameworks, APIs, or any other sofware which falls outside of the context as described, then only a subset of these layers may apply to your software.  For our purposes, we are explicity concerned with the design and implementation of a **modern web *and/or* mobile application** deployed to the Internet-at-large.
 
 
 ## The 6 Layers Almost Every Modern Application Requires
@@ -103,17 +105,17 @@ Many people want to jump right in and start developing their application infrast
 
 ## Slightly Obscure Ontology
 
-  * Actionable Code  
+  * **Actionable Code**  
     Any code in any language that will eventually be compiled or interpreted by a compiler, pre-processor or post-processor.
-  * API  
+  * **API**  
     Short for application programming interface, APIs are simply functions (aka methods) exposed by some source.  This source could be a global variable in your program, an imported interface from an open-source module, or provided by some external resource using HTTP GET/POST requests (often known as REST  or API gateways).
-  * Data-at-Rest  
+  * **Data-at-Rest**  
     A term used to express a certain set of values frozen in time.  If your program updates a counter every nano-second, then every one billionth of a second your data is at rest.  Typically though, we are referring to data stored in a database or memory store that does not change until some aspect of your program intentionally does so.
-  * Memory Store  
+  * **Memory Store**  
     A database that is only stored in RAM, as opposed to traditional databases which actually live on the file system.
-  * Project Root  
+  * **Project Root  
     The outter-most directory of your application, typically containing a file named README and containing only files related to the application (ie; not your downloads & documents, etc).
-  * Stack  
+  * **Stack**  
     A collection of loosely related technologies and resources all used in cooperation to form something larger as a whole.
     
     
