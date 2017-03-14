@@ -113,7 +113,7 @@ Many people want to jump right in and start developing their application infrast
     A term used to express a certain set of values frozen in time.  If your program updates a counter every nano-second, then every one billionth of a second your data is at rest.  Typically though, we are referring to data stored in a database or memory store that does not change until some aspect of your program intentionally does so.
   * **Memory Store**  
     A database that is only stored in RAM, as opposed to traditional databases which actually live on the file system.
-  * **Project Root  
+  * **Project Root**  
     The outter-most directory of your application, typically containing a file named README and containing only files related to the application (ie; not your downloads & documents, etc).
   * **Stack**  
     A collection of loosely related technologies and resources all used in cooperation to form something larger as a whole.
