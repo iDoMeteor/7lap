@@ -1,17 +1,17 @@
 # J-Flow
-## A Bi-Directional Pattern for Program Flow
+## Yet Another Uni-Directional Pattern for Program Flow
 ### Defining a mechanism for orchestrating the flow of data and events in modern applications.
 
 
 All things flow in only one direction except asynchronous calls
 Component chain flows from top to bottom or left to right
-Data flows down
-Events bubble up
+Data flows downto the bottom
+Events go straight to the top or one level up from the bottom
 
 
 ## If There is Only 1 Direction, What Direction is It?
 
-Forward, in a circlular pattern with occasional tangental rubber bands.
+Forward, in a circlular pattern with occasional tangental rubber bands and short circuits.
 
 Since your program is not an open-ended cyclinder, how do we define direction in the first place?
 
