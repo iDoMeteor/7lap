@@ -2,7 +2,7 @@
 
 ![7 Layer Application Paradigm Illustration](https://github.com/iDoMeteor/7lap/blob/master/images/7-layer-application-paradigm-1280x505.png?raw=true "7 Layer Application Paradigm Illustration")
 
-[toc]
+[[toc]]
 
 ## What is an Application?
 
