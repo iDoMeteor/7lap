@@ -258,9 +258,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="384.26401"
-     inkscape:cy="547.75346"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="544.73503"
+     inkscape:cy="629.25142"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -305,6 +305,33 @@
        y="60.894096"
        style="fill:none;fill-opacity:1;stroke-width:0.26458332" />
     <g
+       id="g4126">
+      <rect
+         transform="rotate(46.820066)"
+         y="-54.693867"
+         x="86.466644"
+         height="224.64792"
+         width="8.1010342"
+         id="rect4107"
+         style="opacity:0.97018971;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.31157824;stroke-opacity:1" />
+      <rect
+         style="opacity:0.97018971;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.31157824;stroke-opacity:1"
+         id="rect4109"
+         width="8.1010342"
+         height="224.64792"
+         x="82.314331"
+         y="-49.882343"
+         transform="rotate(46.820066)" />
+      <rect
+         style="opacity:0.97018971;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.31157824;stroke-opacity:1"
+         id="rect4111"
+         width="8.1010342"
+         height="224.64792"
+         x="78.886223"
+         y="-45.842564"
+         transform="rotate(46.820066)" />
+    </g>
+    <g
        id="g5541"
        transform="matrix(1.9564968,0,0,2.1018389,-94.312293,-104.29652)"
        style="stroke:none;stroke-opacity:1">
@@ -345,6 +372,34 @@
          x="87.860062"
          id="tspan3684"
          sodipodi:role="line">Jason's</tspan></text>
+    <g
+       id="g4134"
+       transform="rotate(-180,104.08463,126.47309)">
+      <rect
+         style="opacity:0.97018971;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.31157824;stroke-opacity:1"
+         id="rect4128"
+         width="8.1010342"
+         height="224.64792"
+         x="86.466644"
+         y="-54.693867"
+         transform="rotate(46.820066)" />
+      <rect
+         transform="rotate(46.820066)"
+         y="-49.882343"
+         x="82.314331"
+         height="224.64792"
+         width="8.1010342"
+         id="rect4130"
+         style="opacity:0.97018971;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.31157824;stroke-opacity:1" />
+      <rect
+         transform="rotate(46.820066)"
+         y="-45.842564"
+         x="78.886223"
+         height="224.64792"
+         width="8.1010342"
+         id="rect4132"
+         style="opacity:0.97018971;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.31157824;stroke-opacity:1" />
+    </g>
     <g
        id="g5739"
        transform="translate(30.162503,26.458335)">
