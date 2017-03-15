@@ -2,9 +2,6 @@
 
 ![7 Layer Application Paradigm Illustration](https://github.com/iDoMeteor/7lap/blob/master/images/7-layer-application-paradigm-1280x505.png?raw=true "7 Layer Application Paradigm Illustration")
 
-
-[[toc]]
-
 ## Synopsis
 
 This article outlines the base elements that an application developer eventually has to consider while designing, creating and deploying contemporary software made for public or private distribution which processes data in some way and provides some form of user interface experience.
@@ -123,8 +120,6 @@ Many people want to jump right in and start developing their application infrast
    
    
 ## Related Articles by Jason
-
-Be sure to click the follow button at the top of the page to catch my upcoming articles!
 
   * [**J-Flow**](https://github.com/iDoMeteor/7lap/blob/master/j-flow.md)  
     Program flow for coder sanity
