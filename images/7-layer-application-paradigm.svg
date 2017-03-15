@@ -24,6 +24,14 @@
   <defs
      id="defs2">
     <linearGradient
+       id="linearGradient4101"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4099" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient5654"
        osb:paint="solid">
       <stop
@@ -220,15 +228,6 @@
          in2="result2"
          id="feComposite2031" />
     </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5654"
-       id="linearGradient3631"
-       gradientUnits="userSpaceOnUse"
-       x1="122.0277"
-       y1="135.1262"
-       x2="171.5824"
-       y2="135.1262" />
     <filter
        inkscape:collect="always"
        style="color-interpolation-filters:sRGB"
@@ -242,6 +241,15 @@
          stdDeviation="8.6537048"
          id="feGaussianBlur4011" />
     </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5654"
+       id="linearGradient4073"
+       gradientUnits="userSpaceOnUse"
+       x1="122.0277"
+       y1="135.1262"
+       x2="171.5824"
+       y2="135.1262" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -251,7 +259,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="274.11865"
+     inkscape:cx="384.26401"
      inkscape:cy="547.75346"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -298,7 +306,8 @@
        style="fill:none;fill-opacity:1;stroke-width:0.26458332" />
     <g
        id="g5541"
-       transform="matrix(1.9564968,0,0,2.1018389,-94.312293,-104.29652)">
+       transform="matrix(1.9564968,0,0,2.1018389,-94.312293,-104.29652)"
+       style="stroke:none;stroke-opacity:1">
       <path
          transform="matrix(0.6253211,0,0,0.97957972,21.283154,15.533288)"
          inkscape:transform-center-y="-2.491853"
@@ -315,7 +324,7 @@
          sodipodi:cx="46.023811"
          sodipodi:sides="7"
          id="path4613"
-         style="fill:#008080;stroke-width:0.26458332"
+         style="fill:#008080;stroke-width:0.26458332;stroke:none;stroke-opacity:1"
          sodipodi:type="star" />
       <ellipse
          ry="1.6837981"
@@ -323,7 +332,7 @@
          cy="99.80854"
          cx="53.071735"
          id="path5537"
-         style="fill:#ffffff;fill-opacity:0.7419968;stroke-width:0.26458332" />
+         style="fill:#ffffff;fill-opacity:0.7419968;stroke-width:0.26458332;stroke:none;stroke-opacity:1" />
     </g>
     <text
        id="text3686"
@@ -338,7 +347,7 @@
          sodipodi:role="line">Jason's</tspan></text>
     <g
        id="g5739"
-       transform="translate(30.162503,4.7625001)">
+       transform="translate(30.162503,26.458335)">
       <g
          transform="translate(28.575,5.0270833)"
          id="g5602">
@@ -476,20 +485,25 @@
          id="text5650"
          y="137.88345"
          x="121.30183"
-         style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:4.62250519px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient3631);fill-opacity:1;stroke:none;stroke-width:0.18490019"
+         style="font-style:normal;font-weight:normal;font-size:6.3499999px;line-height:4.62250519px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient4073);fill-opacity:1;stroke:none;stroke-width:0.18490019"
          xml:space="preserve"><tspan
-           style="font-size:6.3499999px;fill:url(#linearGradient3631);fill-opacity:1;stroke-width:0.18490019"
+           style="font-size:6.3499999px;fill:url(#linearGradient4073);fill-opacity:1;stroke-width:0.18490019"
            y="137.88345"
            x="121.30183"
            id="tspan5648"
            sodipodi:role="line">Program Flow</tspan></text>
     </g>
+    <path
+       style="fill:#d7d7e9;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="M 14.022916,216.30208 8.2020832,178.73125 35.71875,180.05417 50.799999,231.11875 Z"
+       id="path4075"
+       inkscape:connector-curvature="0" />
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
-     style="display:inline;opacity:1">
+     style="display:none;opacity:0.5">
     <text
        transform="scale(0.93195125,1.0730175)"
        id="text1983"
@@ -535,7 +549,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 3"
-     style="display:inline;opacity:0.83739833">
+     style="display:inline;opacity:0.83699999">
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:12.69999981px;line-height:7.01332283px;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.28053296;filter:url(#filter2033)"
@@ -558,7 +572,7 @@
      inkscape:groupmode="layer"
      id="g4025"
      inkscape:label="Layer 2 copy copy"
-     style="display:inline;opacity:0.241">
+     style="display:inline;opacity:0.114">
     <text
        transform="scale(0.93195125,1.0730175)"
        id="text4023"

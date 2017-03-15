@@ -2,7 +2,9 @@
 
 ![7 Layer Application Paradigm Illustration](https://github.com/iDoMeteor/7lap/blob/master/images/7-layer-application-paradigm-1280x505.png?raw=true "7 Layer Application Paradigm Illustration")
 
-## Context
+[toc]
+
+## What is an Application?
 
 This article outlines the base elements that an application developer eventually has to consider while designing, creating and deploying contemporary software made for public or private distribution which processes data in some way and provides some form of user interface experience.
 
@@ -28,23 +30,65 @@ If you are writing tools, frameworks, APIs, or any other sofware which falls out
   * **Server Stack**
   This is the system of software and technology that resides between your infrastructure and your application, enabling your software to be executed (or interpreted).  It also generally provides the mechanisms which enable the storage and retrieval of your data, process and resource management.  Logging, monitoring and management tools are always available at this layer, although at times an interface may be provided by the provider of one's infrastructure and one's infrastructure may be logged, monitored and managed from somewhere within one's server stack.
 
-## Automation, the Icing on the Cake
+## Automation, the Icing n the Cake
 
 The 7th layer, **automation** is usually found in highly scaled applications, although applications of any size may utilize it.
 
 Many people want to jump right in and start developing their application infrastructure in a scalable way using automation.  It sounds like a great idea, but in the real world, it can just make everything harder.  You, your application and its layers should all grow together harmoniously.  Don't force it.
 
 
-## Example Layer Components
-
-### Popular Application Stacks
+## Popular Application Stacks
 
   * [Facebook](https://facebook.com)
   * [Gmail](https://gmail.com)
   * [Slack Chat](https://slack.com)
   * [Wordpress](https://wordpress.com)
 
-#### Popular Sub-Components Used in Application Stacks
+## Popular Asset Management Methodologies
+
+  * [Direct-request](https://www.nginx.com/resources/admin-guide/serving-static-content/) (files served directly from within the application's file structure)
+  * [Content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) (files hosted by external provided)
+  * [Dynamically generated & cached](https://www.nginx.com/resources/admin-guide/content-caching/) (caching may be provided locally, by remote CDN and/or using browser cache)
+
+## Popular Data Management Techniques
+
+  * [File system](https://en.wikipedia.org/wiki/Flat_file_database) (CSV, tree based)
+  * [Non-Relational databases](https://en.wikipedia.org/wiki/NoSQL) (Couch, Dynamo, Mongo)
+  * [Object stores](https://en.wikipedia.org/wiki/Object_storage) (Memcached, Redis, ElastiCache)
+  * [Relational databases](https://en.wikipedia.org/wiki/Relational_database) (MSSQL, MySQL, Oracle)
+
+## Popular Infrastructure Solutions
+
+  * [Traditional shared hosting](https://en.wikipedia.org/wiki/Shared_web_hosting_service) (cPanel/WHM)
+  * [Traditional VPS/DVS](https://en.wikipedia.org/wiki/Virtual_private_server) (like above, but with root)
+  * [Platform-as-a-Service](https://en.wikipedia.org/wiki/Platform_as_a_service) (Heroku, Modulus, Digital Ocean)
+  * [Direct Cloud](https://en.wikipedia.org/wiki/Cloud_computing) (AWS, Microsoft Azure, Google Cloud, IBM Softlayer, Rackspace Cloud)
+
+## Popular Program Flow Methodologies
+
+  * [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+  * [MVVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
+  * [Flux](https://facebook.github.io/flux/)
+  * [J-Flow](https://github.com/iDoMeteor/7lap/blob/master/j-flow.md) (my favorite *cough*)
+  * [Message passing](https://en.wikipedia.org/wiki/Message_passing)
+  * [Reactive](https://en.wikipedia.org/wiki/Reactive_programming)
+
+## Popular Server Stacks
+
+  * [AWS Lambda, AWS Dynamo, AWS API Gateway](https://aws.amazon.com/lambda/serverless-architectures-learn-more/) (*serverless*)
+  * [Linux, Apache, MySQL, PHP](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
+  * [Linux, Nginx, MySQL, PHP](https://lemp.io/)
+  * Microsoft Stack \[Server, MSSQL, dotNet]
+
+## Popular Automation Solutions
+
+  * [Ansible](https://www.ansible.com/)
+  * [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
+  * [Chef](https://www.chef.io/)
+  * [Docker](https://docker.com/)
+  * [Runbook](https://runbook.io/)
+
+## Popular Sub-Components Used in Application and Server Stacks
 
   * [Android SDK](https://developer.android.com/studio/index.html)
   * [Angular](https://angularjs.org/)
@@ -58,50 +102,6 @@ Many people want to jump right in and start developing their application infrast
   * [Smarty](http://www.smarty.net/)
   * [Swift](https://developer.apple.com/swift/)
   * [Twitter Bootstrap](http://getbootstrap.com/)
-
-### Popular Asset Management Methodologies
-
-  * [Direct-request](https://www.nginx.com/resources/admin-guide/serving-static-content/) (files served directly from within the application's file structure)
-  * [Content delivery network](https://en.wikipedia.org/wiki/Content_delivery_network) (files hosted by external provided)
-  * [Dynamically generated & cached](https://www.nginx.com/resources/admin-guide/content-caching/) (caching may be provided locally, by remote CDN and/or using browser cache)
-
-### Popular Data Management Techniques
-
-  * [File system](https://en.wikipedia.org/wiki/Flat_file_database) (CSV, tree based)
-  * [Non-Relational databases](https://en.wikipedia.org/wiki/NoSQL) (Couch, Dynamo, Mongo)
-  * [Object stores](https://en.wikipedia.org/wiki/Object_storage) (Memcached, Redis, ElastiCache)
-  * [Relational databases](https://en.wikipedia.org/wiki/Relational_database) (MSSQL, MySQL, Oracle)
-
-### Popular Infrastructure Solutions
-
-  * [Traditional shared hosting](https://en.wikipedia.org/wiki/Shared_web_hosting_service) (cPanel/WHM)
-  * [Traditional VPS/DVS](https://en.wikipedia.org/wiki/Virtual_private_server) (like above, but with root)
-  * [Platform-as-a-Service](https://en.wikipedia.org/wiki/Platform_as_a_service) (Heroku, Modulus, Digital Ocean)
-  * [Direct Cloud](https://en.wikipedia.org/wiki/Cloud_computing) (AWS, Microsoft Azure, Google Cloud, IBM Softlayer, Rackspace Cloud)
-
-### Popular Program Flow Methodologies
-
-  * [MVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
-  * [MVVC](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel)
-  * [Flux](https://facebook.github.io/flux/)
-  * [J-Flow](https://github.com/iDoMeteor/7lap/blob/master/j-flow.md) (my favorite *cough*)
-  * [Message passing](https://en.wikipedia.org/wiki/Message_passing)
-  * [Reactive](https://en.wikipedia.org/wiki/Reactive_programming)
-
-### Popular Server Stacks
-
-  * [AWS Lambda, AWS Dynamo, AWS API Gateway](https://aws.amazon.com/lambda/serverless-architectures-learn-more/) (*serverless*)
-  * [Linux, Apache, MySQL, PHP](https://en.wikipedia.org/wiki/LAMP_(software_bundle))
-  * [Linux, Nginx, MySQL, PHP](https://lemp.io/)
-  * Microsoft Stack \[Server, MSSQL, dotNet]
-
-### Popular Automation Solutions
-
-  * [Ansible](https://www.ansible.com/)
-  * [AWS CloudFormation](https://aws.amazon.com/cloudformation/)
-  * [Chef](https://www.chef.io/)
-  * [Docker](https://docker.com/)
-  * [Runbook](https://runbook.io/)
 
 ## Slightly Obscure Ontology
 
